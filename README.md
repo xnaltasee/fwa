@@ -7,20 +7,6 @@ next time i'll use `GAS (GNU assembler)` and link against `libc`
 for C function.<br/>
 And last, `Intel` syntax with `NASM` *or still use GAS?*.
 
-### Files
-```
-.
-└── src/
-    ├── bin/
-    │   └── clear.s
-    ├── libc/
-    │   └── printf.s
-    ├── if-else.s
-    ├── linux-syscall/
-    │   └── write.s
-    └── return.s
-```
-
 ## Notes
 
 ### Flags
@@ -45,7 +31,7 @@ r10, r11 = Callee-owned
 rbx, rbp, r12 - r15 = Caller-owned
 ```
 
-### Instruction suffixes
+### Instruction suffixes (AT&T syntax)
 ```
 b = byte
 w = word
